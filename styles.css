@@ -37,3 +37,82 @@ width: 50%;
 justify-content: center;
 align-items: center;
 }
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+
+}
+
+.content-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin-left: 352px;
+}
+
+img {
+    display: flex;
+    align-content: center;
+    margin-bottom: 50px;
+}
+
+.p-first {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-bt {
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: 1px #3882F6;
+    border-radius: 10px;
+
+}
+
+.header-2 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.second-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #3882F6;
+  border-radius: 10px;
+  margin-right: 20px; 
+}
+
+.caption {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #333;
+  text-align: center;
+  margin-right: 18px;
+}
