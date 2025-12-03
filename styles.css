@@ -98,6 +98,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  height: 300px;
   gap: 20px;
 }
 
@@ -115,4 +116,34 @@ img {
   color: #333;
   text-align: center;
   margin-right: 18px;
+}
+
+.third-section {
+    background-color: lightgrey;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f3927;
+}
+
+
+
+h4 {
+    display: flex;
+    text-align: end;
+    font-size: 20px;
+    font-style: oblique;
+    color: #1F2937;
+    margin-left: 550px;
+    margin-top: 50px;
+    
 }
